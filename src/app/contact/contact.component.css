@@ -1,0 +1,165 @@
+body{
+ position: relative;
+}
+
+.ContactUs{
+
+}
+
+.ContactInfo{
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 700px;
+  z-index: 0;
+}
+.info{
+  display: inline-block;
+  width: 190px;
+  height: 130px;
+  background: rgb(32, 32, 66);
+  margin: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight:400;
+  color: #ffffff;
+  border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #5f59a8,
+                inset -5px -5px 10px #282366;
+}
+.ContactInfo a{
+  color: #ffffff;
+}
+
+.ContactInfo span {
+  font-weight:800;
+
+}
+fa-icon{
+  font-size: 40px;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 50%;
+    padding: 40px 30px;
+    background-color: rgb(32, 32, 66);
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .text {
+    font-size: 33px;
+    font-weight: 800;
+    margin-bottom: 35px;
+    color: #8b8b8d;
+  }
+ 
+  
+  .field {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  
+  .field:nth-child(2), .field:nth-child(3) {
+    margin-top: 20px;
+  }
+  
+  .field .input {
+    height: 100%;
+    width: 100%;
+    padding-left: 45px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: #dde1e7;
+    color: #595959;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #BABECC,
+                inset -5px -5px 10px #ffffff73;
+  }
+  
+  .field .input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #ffffff73;
+  }
+  
+  .field .span {
+    position: absolute;
+    color: #595959;
+    width: 50px;
+    line-height: 55px;
+  }
+  
+  .field .label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 45px;
+    pointer-events: none;
+    color: #666666;
+  }
+  
+  .field .input:valid ~ label {
+    opacity: 0;
+  }
+  
+  .forgot-pass {
+    text-align: left;
+    margin: 10px 0 10px 5px;
+  }
+  
+  .forgot-pass a {
+    font-size: 16px;
+    color: #666666;
+    text-decoration: none;
+  }
+  
+  .forgot-pass:hover a {
+    text-decoration: underline;
+  }
+  
+  .button {
+    margin: 15px 0;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+    background: #dde1e7;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #595959;
+    box-shadow: 2px 2px 5px #5f59a8,
+               -5px -5px 10px #5f59a8;
+  }
+  
+  .button:focus {
+    color: #3498db;
+    box-shadow: inset 2px 2px 5px #5f59a8,
+               inset -5px -5px 10px #5f59a8;
+  }
+  
+  .sign-up {
+    margin: 10px 0;
+    color: #595959;
+    font-size: 16px;
+  }
+  
+  .sign-up a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .sign-up a:hover {
+    text-decoration: underline;
+  }

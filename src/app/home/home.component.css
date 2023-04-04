@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: rgb(32, 32, 66);
+}
+p{
+    text-align: center;
+    
+}
+div{
+    height: 564px;
+    padding: 35vh;
+    background-image: url(../../assets/png1.png);
+    background-repeat: no-repeat;
+}
+
